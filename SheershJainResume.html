@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sheersh Jain Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #0f172a;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            gap: 40px;
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            color: white;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            object-fit: cover;
+        }
+
+        .header h2 {
+            font-size: 36px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        /* SECTION */
+        section {
+            padding: 40px 60px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            color: #0f172a;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        /* CARDS */
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* SKILLS */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #38bdf8;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* CONTACT */
+        .contact a {
+            text-decoration: none;
+            color: #0f172a;
+        }
+
+        .contact a:hover {
+            color: #38bdf8;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: white;
+            margin-top: 30px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header">
+        <!-- Replace 'profile.jpg' with your image file -->
+        <img src="C:\Users\soumy\Downloads\WhatsApp Image 2026-03-22 at 10.04.00 PM (1).jpeg" alt="Profile Image">
+        <div>
+            <h2>Sheersh Jain</h2>
+            <p>A passionate learner, leader, and creative thinker.</p>
+        </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h3>Education</h3>
+
+        <div class="card">
+            <strong>Integrated BBA-MBA</strong><br>
+            Nirma University, Ahmedabad, Gujarat<br>
+            2025 - 2030
+        </div>
+
+        <div class="card">
+            <strong>BBA in Digital Business & Entrepreneurship</strong><br>
+            IIM Bangalore, Karnataka<br>
+            2025 - 2028
+        </div>
+
+        <div class="card">
+            <strong>Class 12th (CBSE - Commerce)</strong><br>
+            Delhi Public School Gandhinagar<br>
+            2024 - 2025 | Score: 92%
+        </div>
+
+        <div class="card">
+            <strong>Class 10th (CBSE - Commerce)</strong><br>
+            Delhi Public School Gandhinagar<br>
+            2022 - 2023 | Score: 92%
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h3>Skills</h3>
+        <div class="skills">
+            <div class="skill">Social Media Content Creation</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Public Speaking</div>
+            <div class="skill">Initiative-Taking</div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+        <h3>Achievements</h3>
+        <div class="card">
+            Received Academic Excellence Award in Class 11th and 12th
+        </div>
+        <div class="card">
+            Secured 3rd Position In Street Play Competition
+        </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <h3>Experience</h3>
+
+        <div class="card">
+            Member of Social Committee "Mavericks" at IMNU
+        </div>
+
+        <div class="card">
+            Member of Drama Club "Anubhav" at Nirma University
+        </div>
+
+        <div class="card">
+            Learning Pod Leader at IIMB DBE (Batch 2)
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <div class="card contact">
+            <p><strong>Phone:</strong> 7778048106</p>
+            <p><strong>Email:</strong> sheershjai25@iimb.ac.in</p>
+            <p><strong>LinkedIn:</strong> 
+                <a href="https://www.linkedin.com/in/sheersh-jain-857532383" target="_blank">
+                    View Profile
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Sheersh Jain|Designed with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
